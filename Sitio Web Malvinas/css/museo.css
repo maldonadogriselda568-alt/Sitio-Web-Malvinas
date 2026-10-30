@@ -1,0 +1,59 @@
+.encabezado-museo {
+  background-color: #1b2a3a;
+  color: #ffffff;
+  padding: 3.5rem 0;
+  text-align: center;
+}
+.encabezado-museo h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+.encabezado-museo p {
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.seccion-museo {
+  padding: 4rem 0;
+}
+
+.galeria-museo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.item-museo {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(27, 42, 58, 0.1);
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.item-museo:hover {
+  box-shadow: 0 8px 20px rgba(27, 42, 58, 0.16);
+  transform: translate(-4px);
+}
+.item-museo img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.item-museo .contenido {
+  padding: 1.25rem;
+}
+.item-museo .contenido h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #1b2a3a;
+  margin-bottom: 0.5rem;
+}
+.item-museo .contenido p {
+  color: #6c757d;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+/*# sourceMappingURL=museo.css.map */
